@@ -1,6 +1,6 @@
 # Voice-and-Manual-Robot-Control
 
-An interactive, responsive web interface for real-time control of a mobile robot using **Web Speech Recognition API** and **Manual Directional Controls**. Designed for smooth communication with an **ESP32** microcontroller via a lightweight server framework.
+A responsive web interface with voice and manual controls using SpeechRecognition API and ESP32 integration via PHP & MySQL.
 
 ---
 
