@@ -42,9 +42,7 @@ Commands are immediately logged, displayed on the interface, and dispatched to t
 
 Follow these exact steps to replicate this cloud-hosted deployment:
 
-# Deployment on InfinityFree
-
-### Step 1 — Create the Database
+### Step 1: Create the Database
 
 1. Create a free hosting account on **InfinityFree**.
 2. Create your desired subdomain.
@@ -61,7 +59,7 @@ This will create the required tables and insert the default values.
 
 ---
 
-### Step 2 — Configure the Database Connection
+### Step 2: Configure the Database Connection
 
 Open `db.php` using the InfinityFree Online File Manager.
 
@@ -89,9 +87,6 @@ if ($conn->connect_error) {
 
 ?>
 ```
-
-> ⚠️ **Security:** Do not upload real database passwords or other private credentials to a public GitHub repository. Keep your production `db.php` private or use a configuration method that keeps credentials outside the repository.
-
 ---
 
 ### Step 3: Upload the Server Files
@@ -123,7 +118,7 @@ http://your-subdomain.infinityfreeapp.com/index.html
 
 ---
 
-## 2. Manual Control
+### 2. Manual Control
 
 Open the **Manual Control** interface and use the directional buttons.
 
@@ -149,7 +144,7 @@ Stop → S
 
 ---
 
-## 3. Voice Control
+### 3. Voice Control
 
 Switch to the **Voice** tab and click the microphone button.
 
@@ -167,7 +162,7 @@ The recognized command is sent to the PHP backend and stored in the database.
 
 ---
 
-## 4. ESP32 Data Fetching
+### 4. ESP32 Data Fetching
 
 The ESP32 retrieves the latest robot command through:
 
